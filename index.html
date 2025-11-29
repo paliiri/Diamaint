@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Diamaint — натуральная косметика</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Work+Sans:wght@400;500&family=Playfair+Display:wght@400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="globals.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header__container">
+      <div class="header__logo">
+        <img src="img/logo.svg" alt="Логотип Diamaint">
+      </div>
+      <nav class="nav" aria-label="Основная навигация">
+        <ul class="nav__list">
+          <li class="nav__item"><a class="nav__link" href="#">О продукте</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Каталог</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Акции</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Полезное</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Авторы</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="container hero__container">
+        <h1 class="hero__title">Diamaint</h1>
+        <div class="hero__content">
+          <div class="hero__column left">
+            <p class="hero__tagline">Натуральная косметика с привкусом Ирландии</p>
+            <div class="hero__description">
+              <p>
+                Ингредиенты контролируются по качеству и происхождению. Большинство из них имеют органический сертификат
+                EcoCert и Soil Association. Сочетание компонентов в каждой линейке подобрано с учетом особенностей типа
+                кожи.
+              </p>
+            </div>
+          </div>
+          <div class="hero__column">
+            <div class="hero__description">
+              <p>
+                Diamaint — <strong>одуванчик</strong> в переводе с ирландского.
+              </p>
+              <p>
+                Косметика, после которой вы уже никогда не будете прежней и обретёте новую жизнь, где наша продукция
+                будет
+                вашим верным спутником и помощником.
+              </p>
+              <p>
+                Используем силу природы и новейшие разработки индустрии вкупе с традиционными ирландскими рецептами,
+                чтобы
+                придать вашей коже здоровый и цветущий вид.
+              </p>
+            </div>
+            <div class="hero__cta">
+              <button class="btn" type="button">Выбрать продукт</button>
+            </div>
+            <div class="hero__description">
+              <p>
+                В основе — активные натуральные комплексы, витамины C, A, PP, B и E, масла, воски, минералы и
+                натуральные
+                солнцезащитные компоненты.
+              </p>
+            </div>
+          </div>
+          <div class="hero__column right">
+            <div class="hero__footnote">
+              <p>* Подбираем комплекс специально для вашего типа кожи</p>
+            </div>
+            <p class="hero__tagline">
+              Diamaint — только натуральные ингредиенты
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="products">
+      <div class="container">
+        <div class="products__container">
+          <h2 class="products__title title ">
+            Выбери свой продукт
+          </h2>
+          <div class="products__cards cards">
+            <div class="products__card card">
+              <div class="products__image card__image">
+                <img src="img/products/1.png" alt="Увлажняющий мусс">
+              </div>
+              <div class="products__content">
+                <span class="card__label">
+                  для нормальной кожи
+                </span>
+                <p class="products__text card__text">
+                  Увлажняющий мусс
+                </p>
+                <div class="products__price card__price">2 750 ₽</div>
+              </div>
+            </div>
+            <div class="products__card card">
+              <div class="products__image card__image">
+                <img src="img/products/2.png" alt="Увлажняющий мусс">
+              </div>
+              <div class="products__content">
+                <span class="card__label">
+                  для нормальной кожи
+                </span>
+                <p class="products__text card__text">
+                  Увлажняющий мусс
+                </p>
+                <div class="products__price card__price"><span> 3 750</span> 3500 ₽</div>
+              </div>
+            </div>
+            <div class="products__card card">
+              <div class="products__image card__image">
+                <img src="img/products/3.png" alt="Гель для умывания">
+              </div>
+              <div class="products__content">
+                <span class="card__label">
+                  для нормальной кожи
+                </span>
+                <p class="products__text card__text">
+                  Гель для умывания
+                </p>
+                <div class="products__price card__price"> 1 650 ₽</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="promo">
+      <div class="container promo__container">
+        <aside class="promo__info" aria-labelledby="promo-title">
+          <h2 id="promo-title" class="promo__title title">
+            Акции
+          </h2>
+          <p class="promo__text">
+            Каждый месяц мы отбираем специальную линейку продуктов, которая нравится вам и снижаем цены!
+          </p>
+          <div class="promo__pagination">
+            <button class="promo__btn promo__btn--prev" aria-label="Назад" type="button">
+              <svg width="74" height="74" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="36.7257" cy="36.7257" r="36.2257" transform="matrix(-1 0 0 1 73.4513 0)" stroke="#888794" />
+                <path d="M40.3982 27.177L30.8496 36.7257L40.3982 46.2743" stroke="#888794" stroke-width="3"
+                  stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </button>
+            <button class="promo__btn promo__btn--next" aria-label="Вперед" type="button">
+              <svg width="74" height="74" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="36.7257" cy="36.7257" r="36.2257" stroke="#888794" />
+                <path d="M33.0531 27.177L42.6018 36.7257L33.0531 46.2743" stroke="#888794" stroke-width="3"
+                  stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </button>
+          </div>
+        </aside>
+        <div class="slider">
+          <article class="slider__card" aria-label="Слайд 1">
+            <span class="slider__label">для нормальной кожи</span>
+            <div class="slider__content">
+              <div class="slider__number">01</div>
+              <h3 class="slider__title">
+                Invisible symphony — ваша волшебная палочка для борьбы с несовершенствами
+              </h3>
+              <p class="slider__text">
+                Сочетая энергию природы и возможности науки, восстанавливает кожу, помогает регенерации клеток,
+                разглаживает
+                рельеф и интенсивно увлажняет.
+              </p>
+            </div>
+            <div class="slider__image">
+              <img src="img/promo/jar1.png" alt="Баночка Diamaint">
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="discount">
+      <div class="container">
+        <div class="discount__cards cards">
+          <div class="discount__card card">
+            <div class="discount__header">СКИДКА 5%</div>
+            <div class="discount__body">
+              <div class="card__image">
+                <img src="img/discount/1.png" alt="Набор Invisible">
+              </div>
+              <div class="discount__content">
+                <p class="card__text">Приобретая увлажняющий крем и маску, вы получаете скидку 5% на весь
+                  товар
+                </p>
+                <div class="card__price"><span>5000</span>4750 ₽</div>
+              </div>
+            </div>
+          </div>
+          <div class="discount__card card">
+            <div class="discount__header">СКИДКА 10%</div>
+            <div class="discount__body">
+              <div class="card__image">
+                <img src="img/discount/2.png" alt="Набор Invisible">
+              </div>
+              <div class="discount__content">
+                <p class="card__text">Приобретая увлажняющий мусс и гель для умывания, вы получаете
+                  скидку 10%
+                  на
+                  весь товар</p>
+                <div class="card__price"><span>4000</span>3600 ₽</div>
+              </div>
+            </div>
+          </div>
+          <div class="discount__card card">
+            <div class="discount__header">СКИДКА 20%</div>
+            <div class="discount__body">
+              <div class="card__image">
+                <img src="img/discount/3.png" alt="Набор Invisible symphony">
+              </div>
+              <div class="discount__content">
+                <p class="card__text">Приобретая весь набор Invisible symphony, вы получаете скидку 20%
+                  на весь
+                  товар</p>
+                <div class="card__price"><span>9400</span>7520 ₽</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="diamaint">
+      <div class="container">
+        <h2 class="diamaint__title">Diamaint</h2>
+      </div>
+      <div class="diamaint__container">
+        <div class="container">
+          <div class="diamaint__content">
+            <div class="diamaint__image">
+              <img src="img/diamaint/diamaint.png" alt="Diamaint продукты">
+            </div>
+            <div class="diamaint__info">
+              <div class="diamaint__subtitle">Протестировали и довольны результатом</div>
+              <div class="diamaint__stat">6800 <span>женщин</span></div>
+              <p class="diamaint__text">96% женщин заметили положительный результат уже после недели использования
+                линейки
+                средств. Кожа стала более ухоженной, увлажненной и напитанной. Исчезли или значительно уменьшились
+                воспаления.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="article">
+      <div class="container">
+        <h2 class="title">Полезно узнать</h2>
+        <div class="article__cards">
+          <article class="article__card article-card--one">
+            <div class="article__content">
+              <span class="article__label">Совет</span>
+              <h3 class="article__subtitle">Что добавить к зимнему уходу</h3>
+              <p class="article__text">
+                Зимой кожа лица особенно остро нуждается в уходе. Холод и ветер, сухость воздуха отапливаемых
+                помещений...
+              </p>
+            </div>
+            <button class="article__btn">
+              <svg width="25" height="1" viewBox="0 0 25 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <line x1="0" y1="0.5" x2="25" y2="0.500003" stroke="#515076" />
+              </svg>
+              читать
+            </button>
+          </article>
+          <article class="article__card article-card--two">
+            <div class="article__content">
+              <span class="article__label">Совет</span>
+              <h3 class="article__subtitle">Как выбрать крем</h3>
+              <p class="article__text">
+                7 критериев правильного выбора. Под воздействием окружающей среды кожа теряет питательные вещества...
+              </p>
+            </div>
+            <button class="article__btn">
+              <svg width="25" height="1" viewBox="0 0 25 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <line x1="0" y1="0.5" x2="25" y2="0.500003" stroke="#515076" />
+              </svg>
+              читать
+            </button>
+          </article>
+          <article class="article__card article-card--three">
+            <div class="article__content">
+              <span class="article__label">Совет</span>
+              <h3 class="article__subtitle">Как правильно наносить крем</h3>
+              <p class="article__text">
+                Любой тип кожи нельзя сильно натирать при очищении или тонизировании, все движения...
+              </p>
+            </div>
+            <button class="article__btn">
+              <svg width="25" height="1" viewBox="0 0 25 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <line x1="0" y1="0.5" x2="25" y2="0.500003" stroke="#515076" />
+              </svg>
+              читать
+            </button>
+          </article>
+          <article class="article__card article-card--four">
+            <div class="article__content">
+              <span class="article__label">Совет</span>
+              <h3 class="article__subtitle">Как узнать свой тип кожи</h3>
+              <p class="article__text">
+                У одних кожа от природы жирная, у других сухая и тонкая, считается, что в современных условиях...
+              </p>
+            </div>
+            <button class="article__btn">
+              <svg width="25" height="1" viewBox="0 0 25 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <line x1="0" y1="0.5" x2="25" y2="0.500003" stroke="#515076" />
+              </svg>
+              читать
+            </button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="authors">
+      <div class="container authors__container">
+        <div class="authors__content">
+          <div class="authors__info">
+            <h2 class="authors__title title ">Авторы и идеологи</h2>
+
+            <div class="authors__person">
+              <span class="authors__name">Маша Шестякова</span>
+              <p class="authors__bio">
+                Маша — главный идеолог, создатель проекта и по совместительству главный добытчик рецептов. Машиной
+                фишкой
+                является бабушка-ирландка, бывшая модель с бесконечным запасом проверенных на себе народных рецептов.
+              </p>
+            </div>
+
+            <blockquote class="authors__quote">
+              <svg width="19" height="16" viewBox="0 0 19 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M17.58 12.54L11.76 15.9C10.4 14.5 9.71999 12.64 9.71999 10.32C9.71999 5.84004 11.72 2.40004 15.72 0L18.9 2.94C17.1 4.46 16.2 6.42 16.2 8.82C16.2 10.38 16.66 11.62 17.58 12.54ZM7.85999 12.54L2.03999 15.9C0.679993 14.5 0 12.64 0 10.32C0 5.84004 1.99999 2.40004 5.99999 0L9.17999 2.94C7.37999 4.46 6.47999 6.42 6.47999 8.82C6.47999 10.38 6.93999 11.62 7.85999 12.54Z"
+                  fill="#77877F" />
+              </svg>
+              <p>
+                Мне нравится адаптировать культуру моих предков к современности. Я чувствую, что создаю нить между
+                разными
+                эпохами. И то, что мой продукт делает девушек красивыми и уверенными в себе, помогает мне чувствовать
+                себя
+                счастливой!
+              </p>
+            </blockquote>
+          </div>
+          <div class="authors__gallery">
+            <img class="authors__image" src="img/authors/1.jpg" alt="Фото автора">
+            <img class="authors__image" src="img/authors/2.jpg" alt="Diamaint продукты">
+            <img class="authors__image" src="img/authors/3.jpg" alt="Diamaint продукты">
+          </div>
+        </div>
+        <div class="authors__photo">
+          <img src="img/authors/beeNaturalles.jpg" alt="Авторы">
+        </div>
+      </div>
+    </section>
+
+    <section class="contact">
+      <div class="container">
+        <div class="contact__container">
+          <div class="contact__card">
+            <h2 class="contact__title title ">Контакты</h2>
+            <div class="contact__info">
+              <p class="contact__phone">+7 495 550 50 50</p>
+              <p class="contact__address">Москва, Пресненский Вал 21</p>
+            </div>
+            <div class="contact__social">
+              <svg width="23" height="20" viewBox="0 0 23 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M21.1677 0H1.23661C0.554113 0 0 0.474847 0 1.06183V18.176C0 18.7629 0.554113 19.2384 1.23661 19.2384H11.9669V11.7882H9.04732V8.88429H11.9669V6.74289C11.9669 4.25842 13.7337 2.90483 16.3154 2.90483C17.5531 2.90483 18.6144 2.98434 18.924 3.01887V5.6158L17.1332 5.61644C15.7295 5.61644 15.4587 6.18948 15.4587 7.02989V8.88334H18.8078L18.3699 11.7869H15.4584V19.2375H21.1673C21.8506 19.2375 22.4051 18.7614 22.4051 18.176V1.0612C22.4047 0.474847 21.851 0 21.1677 0Z"
+                  fill="#5B5A7E" />
+              </svg>
+              <svg width="23" height="20" viewBox="0 0 23 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M21.3927 0H1.01101C0.453683 0 0 0.394599 0 0.880825V18.6659C0 19.1509 0.453683 19.5467 1.01101 19.5467H21.3926C21.9513 19.5467 22.4051 19.1509 22.4051 18.6659V0.880825C22.4051 0.394599 21.9514 0 21.3927 0V0ZM11.2026 6.36245C13.3618 6.36245 15.1122 7.88953 15.1122 9.77335C15.1122 11.6572 13.3618 13.1842 11.2026 13.1842C9.04326 13.1842 7.29288 11.6572 7.29288 9.77335C7.29288 7.88953 9.04326 6.36245 11.2026 6.36245ZM19.6045 17.1034H2.80064V8.5517H4.64485C4.54821 8.9463 4.4922 9.35432 4.4922 9.77335C4.4922 13.0022 7.50289 15.6276 11.2025 15.6276C14.9036 15.6276 17.9128 13.0022 17.9128 9.77335C17.9128 9.35432 17.8568 8.9463 17.7616 8.5517H19.6044V17.1034H19.6045ZM19.6045 6.10835H15.4035V2.44335H19.6045V6.10835Z"
+                  fill="#5B5A7E" />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+</body>
+
+</html>

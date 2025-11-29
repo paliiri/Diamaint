@@ -1,0 +1,163 @@
+html,
+body {
+  height: 100%
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family);
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--color-text);
+  -webkit-font-smoothing: antialiased
+}
+
+
+:root {
+  --font-family: "Montserrat", sans-serif;
+  --second-family: "Work Sans", sans-serif;
+  --third-family: "Playfair Display", sans-serif;
+  --bg: #f7f7fa;
+  --color-text: #888794;
+  --color-secondary: #515076;
+  --container: 1400px;
+  --gap: 24px;
+}
+
+.container {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 16px
+}
+
+.left {
+  justify-content: space-between
+}
+
+.right {
+  justify-content: flex-end;
+}
+
+.title {
+  margin-bottom: 80px;
+  font-weight: 200;
+  font-size: 70px;
+  line-height: 109%;
+  text-align: center;
+  color: var(--color-secondary);
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px
+}
+
+.card {
+  padding: 60px 30px;
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg);
+}
+
+.card__text {
+  margin-bottom: 11px;
+  font-weight: 400;
+  color: var(--color-secondary);
+}
+
+.card__price {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-weight: 500;
+  font-size: 20px;
+  color: rgba(var(--color-secondary) 0.8);
+}
+
+.card__price span {
+  text-decoration: line-through;
+  color: rgba(var(--color-secondary) 0.6)
+}
+
+.card__image {
+  margin: 0 auto;
+  margin-bottom: 10px;
+  width: 300px;
+}
+
+.card__label {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 200%;
+  letter-spacing: 0.23em;
+  text-transform: uppercase;
+}
+
+.btn {
+  padding: 27px;
+  border-radius: 100px;
+  background: var(--color-secondary);
+  color: #fff;
+  border: 0;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+@media (max-width: 1180px) {
+  .title {
+    font-size: 55px;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 968px) {
+  body {
+    font-size: 16px;
+  }
+
+  .card {
+    width: 300px;
+  }
+
+  .card__image {
+    width: 240px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .title {
+    font-size: 35px;
+  }
+
+  .card__image {
+    width: 260px;
+  }
+}
+
+@media (max-width: 490px) {
+
+  .card {
+    padding: 30px;
+    width: 240px;
+  }
+
+  .card__image {
+    width: 200px;
+  }
+
+  .card__label {
+    font-size: 8px;
+  }
+
+  .card__price {
+    font-size: 16px;
+  }
+}
